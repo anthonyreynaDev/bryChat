@@ -51,19 +51,7 @@ app.post("/chat", async (req, res) => {
       response: respuesta
     });
 
-  } catch (error) {
-    console.error(error);
-
-    res.status(500).json({
-      response: "Error"
-    });
-  }
-});
-
-    res.json({
-      response:
-        completion.choices[0].message.content
-    });
+  
 
   } catch (error) {
 
@@ -77,6 +65,8 @@ app.post("/chat", async (req, res) => {
 
 });
 
-app.listen(3000, () => {
-  console.log("Servidor iniciado");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Servidor iniciado en puerto ${PORT}`);
 });
