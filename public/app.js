@@ -110,3 +110,15 @@ if(e.key==="Enter")
 enviar();
 
 });
+
+const chatToggle =
+document.getElementById("chatToggle");
+
+const chatbox =
+document.getElementById("chatbox");
+
+chatToggle.addEventListener("click", () => {
+
+  chatbox.classList.toggle("hidden");
+
+});
