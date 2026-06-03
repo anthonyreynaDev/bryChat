@@ -3,19 +3,19 @@ const productos = [
 {
 nombre:"Laptop Gamer",
 precio:899,
-imagen:"https://picsum.photos/400/250?1"
+imagen:"images/laptop.jpg"
 },
 
 {
 nombre:"Teclado Mecánico",
 precio:89,
-imagen:"https://picsum.photos/400/250?2"
+imagen:"images/teclado.jpg"
 },
 
 {
 nombre:"Mouse RGB",
 precio:39,
-imagen:"https://picsum.photos/400/250?3"
+imagen:"images/mouse.jpg"
 }
 
 ];
