@@ -127,7 +127,16 @@ document.getElementById("chatToggle");
 const chatbox =
 document.getElementById("chatbox");
 
+console.log("Botón:", chatToggle);
+console.log("Chat:", chatbox);
 chatToggle.addEventListener("click",()=>{
+  chatToggle.addEventListener("click",()=>{
+
+  console.log("CLICK DETECTADO");
+
+  chatbox.classList.toggle("hidden");
+
+});
 
   chatbox.classList.toggle("hidden");
 
