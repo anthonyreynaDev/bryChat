@@ -127,21 +127,14 @@ document.getElementById("chatToggle");
 const chatbox =
 document.getElementById("chatbox");
 
-chatToggle.addEventListener("click", () => {
+chatToggle.addEventListener("click",()=>{
 
   chatbox.classList.toggle("hidden");
 
-});
-
-chatToggle.addEventListener("click",()=>{
-
-chatbox.classList.toggle("hidden");
-
-if(chatbox.classList.contains("hidden")){
-chatToggle.innerHTML="💬";
-}
-else{
-chatToggle.innerHTML="✖";
-}
+  if(chatbox.classList.contains("hidden")){
+    chatToggle.innerHTML = "💬";
+  }else{
+    chatToggle.innerHTML = "✖";
+  }
 
 });
