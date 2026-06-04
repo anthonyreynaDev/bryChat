@@ -1,21 +1,27 @@
 const productos = [
 
 {
-nombre:"Laptop Gamer",
-precio:899,
-imagen:"images/laptop.jpg"
+nombre:"Lomo Saltado",
+precio:12,
+imagen:"images/lomo.jpg"
 },
 
 {
-nombre:"Teclado Mecánico",
-precio:89,
-imagen:"images/teclado.jpg"
+nombre:"Arroz con Pollo",
+precio:10,
+imagen:"images/arroz.jpg"
 },
 
 {
-nombre:"Mouse RGB",
-precio:39,
-imagen:"images/mouse.jpg"
+nombre:"Ceviche Clásico",
+precio:15,
+imagen:"images/ceviche.jpg"
+},
+
+{
+nombre:"Ají de Gallina",
+precio:11,
+imagen:"images/aji.jpg"
 }
 
 ];
@@ -47,6 +53,10 @@ $${producto.precio}
 
 const chatMessages =
 document.getElementById("chatMessages");
+agregar(
+"¡Bienvenido a Sabor Peruano! 🍽️ ¿Qué plato te gustaría conocer?",
+"bot"
+);
 
 function agregar(texto,tipo){
 
