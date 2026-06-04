@@ -132,3 +132,16 @@ chatToggle.addEventListener("click", () => {
   chatbox.classList.toggle("hidden");
 
 });
+
+chatToggle.addEventListener("click",()=>{
+
+chatbox.classList.toggle("hidden");
+
+if(chatbox.classList.contains("hidden")){
+chatToggle.innerHTML="💬";
+}
+else{
+chatToggle.innerHTML="✖";
+}
+
+});
