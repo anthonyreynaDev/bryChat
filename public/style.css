@@ -932,3 +932,11 @@ body {
     gap: 20px;
   }
 }
+
+.message {
+    white-space: pre-wrap;
+}
+
+.message.bot {
+    white-space: pre-wrap;
+}
