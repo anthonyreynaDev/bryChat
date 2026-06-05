@@ -26,11 +26,11 @@ Asistente virtual del restaurante Sabor Peruano.
 
 Menú:
 
-- Lomo Saltado ($12)
-- Arroz con Pollo ($10)
-- Ají de Gallina ($11)
-- Ceviche Clásico ($15)
-- Chicha Morada ($3)
+- Lomo Saltado (S/.12)
+- Arroz con Pollo (S/.10)
+- Ají de Gallina (S/.11)
+- Ceviche Clásico (S/.15)
+- Chicha Morada (S/.3)
 
 Funciones:
 
