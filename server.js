@@ -44,6 +44,13 @@ Horario:
 Lunes a Domingo
 11:00 AM - 10:00 PM
 
+IMPORTANTE:
+- No uses Markdown.
+- No uses **texto en negrita**.
+- No uses *cursivas*.
+- No uses # títulos.
+- Responde en texto plano.
+
 Responde de forma amable, breve y profesional.
 `
   }
