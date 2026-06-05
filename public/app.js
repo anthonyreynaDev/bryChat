@@ -59,20 +59,17 @@ agregar(
 );
 
 function agregar(texto,tipo){
+const div = document.createElement("div");
+div.className = `message ${tipo}`;
 
-const div =
-document.createElement("div");
-
-div.className =
-`message ${tipo}`;
-
-div.innerText =
-texto;
+if(tipo === "bot"){
+    div.innerHTML = marked.parse(texto);
+}else{
+    div.innerHTML = marked.parse(texto);
+}
 
 chatMessages.appendChild(div);
-
-chatMessages.scrollTop =
-chatMessages.scrollHeight;
+chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
 async function enviar(){
